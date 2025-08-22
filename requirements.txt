@@ -1,0 +1,32 @@
+# --- Core Libraries (Latest Stable Versions) ---
+langchain
+langchain-google-genai
+google-generativeai
+langchain-community
+langchain-chroma
+
+# LLM and VectorDB
+google-generativeai
+chromadb
+
+# Document Parsing (used by LangChain loaders)
+unstructured[local-inference]
+python-docx
+docx2txt
+
+# API Framework
+fastapi
+uvicorn[standard]
+
+# --- NEW: UI Framework ---
+streamlit
+requests
+
+# Configuration & Utilities
+pydantic
+pydantic-settings
+python-dotenv
+
+
+
+
