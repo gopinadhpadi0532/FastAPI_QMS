@@ -31,7 +31,7 @@ def log_feedback(question, answer, sources, feedback_score, feedback_text):
     }
     df = pd.DataFrame(new_feedback)
     
-    # Check if file exists to append or write new
+    ##### Check if file exists to append or write new
     if os.path.exists(FEEDBACK_FILE_PATH):
         df.to_csv(FEEDBACK_FILE_PATH, mode='a', header=False, index=False)
     else:
